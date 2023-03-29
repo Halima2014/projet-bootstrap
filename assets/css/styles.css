@@ -1,22 +1,12 @@
+@import url( "/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 .list-categories{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 
-@media screen and (min-width:992px) {
-  .list-categories{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    overflow-x: hidden;
-}
-}
 
-.list-categories .categorie{
-  white-space: nowrap;
-  margin: 10px 15px;
-}
+
 
 img{
   max-width: 100%;

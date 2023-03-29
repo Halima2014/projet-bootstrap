@@ -8,12 +8,33 @@
     <link rel="stylesheet" href="/assets/css/styles.css"/>
   </head>
   <body>
-    <main class="container">
+    <header>
       <div class="bg-dark text-light p-2">
-        MA NAVBAR
+        MA NAVBAR 
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+            <li class="breadcrumb-item"><a href="#">Accessoires tech</a></li>
+            <li class="breadcrumb-item"><a href="#">Audio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Microphones</li>
+          </ol>
+        </nav>
       </div>
       <div class="row">
-        <aside class="list-categories mt-3 col-12 col-lg-3">
+        <aside class="list-group mt-3 col-12 col-lg-3 list-categories">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              The current link item
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+          </div>
 
         </aside>
 
